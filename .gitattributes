@@ -1,0 +1,6 @@
+# Keep authored text consistent while preserving bundled upstream notices verbatim.
+* text=auto eol=lf
+*.png binary
+*.woff2 binary
+public/fonts/*-OFL.txt -text -whitespace
+public/licenses/* -text -whitespace
